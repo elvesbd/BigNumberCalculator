@@ -14,3 +14,4 @@
 /home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/BigNumberCalculator.Core.pdb
 /home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/BigNumberCalculator.Core.genruntimeconfig.cache
 /home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/ref/BigNumberCalculator.Core.dll
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/BigNumberCalculator.Core.sourcelink.json
