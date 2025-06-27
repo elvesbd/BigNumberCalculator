@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9934999999999999" branch-rate="0.9803000000000001" version="1.9" timestamp="1750949298" lines-covered="155" lines-valid="156" branches-covered="50" branches-valid="51">
+  <sources>
+    <source>/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/</source>
+  </sources>
+  <packages>
+    <package name="BigNumberCalculator.Core" line-rate="0.9934999999999999" branch-rate="0.9803000000000001" complexity="62">
+      <classes>
+        <class name="BigNumberCalculator.Core.Utils.FileExceptionHandler" filename="Utils/FileExceptionHandler.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="Handle" signature="(System.Exception)" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="6" hits="18" branch="False" />
+                <line number="7" hits="18" branch="True" condition-coverage="100% (10/10)">
+                  <conditions>
+                    <condition number="11" type="jump" coverage="100%" />
+                    <condition number="19" type="jump" coverage="100%" />
+                    <condition number="27" type="jump" coverage="100%" />
+                    <condition number="35" type="jump" coverage="100%" />
+                    <condition number="43" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="8" hits="18" branch="False" />
+                <line number="9" hits="3" branch="False" />
+                <line number="10" hits="3" branch="False" />
+                <line number="11" hits="3" branch="False" />
+                <line number="12" hits="3" branch="False" />
+                <line number="13" hits="3" branch="False" />
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="18" branch="False" />
+                <line number="18" hits="18" branch="False" />
+                <line number="19" hits="18" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="18" branch="False" />
+            <line number="7" hits="18" branch="True" condition-coverage="100% (10/10)">
+              <conditions>
+                <condition number="11" type="jump" coverage="100%" />
+                <condition number="19" type="jump" coverage="100%" />
+                <condition number="27" type="jump" coverage="100%" />
+                <condition number="35" type="jump" coverage="100%" />
+                <condition number="43" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="8" hits="18" branch="False" />
+            <line number="9" hits="3" branch="False" />
+            <line number="10" hits="3" branch="False" />
+            <line number="11" hits="3" branch="False" />
+            <line number="12" hits="3" branch="False" />
+            <line number="13" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="18" branch="False" />
+            <line number="18" hits="18" branch="False" />
+            <line number="19" hits="18" branch="False" />
+          </lines>
+        </class>
+        <class name="BigNumberCalculator.Core.Utils.OperationHelper" filename="Utils/OperationHelper.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="GetOperationName" signature="(BigNumberCalculator.Core.Enums.Operation)" line-rate="1" branch-rate="1" complexity="5">
+              <lines>
+                <line number="7" hits="9" branch="True" condition-coverage="100% (5/5)">
+                  <conditions>
+                    <condition number="5" type="switch" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="8" hits="9" branch="False" />
+                <line number="9" hits="5" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="9" branch="True" condition-coverage="100% (5/5)">
+              <conditions>
+                <condition number="5" type="switch" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="8" hits="9" branch="False" />
+            <line number="9" hits="5" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="BigNumberCalculator.Core.Utils.ResultFormatter" filename="Utils/ResultFormatter.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="FormatResult" signature="(System.String,System.String,System.String,BigNumberCalculator.Core.Enums.Operation,System.TimeSpan)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="13" hits="3" branch="False" />
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="24" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="3" branch="False" />
+                <line number="17" hits="3" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="24" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="16" hits="3" branch="False" />
+            <line number="17" hits="3" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="BigNumberCalculator.Core.Services.CalculatorService" filename="Services/CalculatorService.cs" line-rate="0.9687" branch-rate="0.5" complexity="6">
+          <methods>
+            <method name="Calculate" signature="(BigNumberCalculator.Core.Enums.Operation)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="13" branch="False" />
+                <line number="16" hits="13" branch="False" />
+                <line number="17" hits="13" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="12" branch="False" />
+                <line number="22" hits="12" branch="False" />
+                <line number="23" hits="12" branch="False" />
+                <line number="24" hits="12" branch="False" />
+                <line number="25" hits="13" branch="False" />
+              </lines>
+            </method>
+            <method name="LoadNumbers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="13" branch="False" />
+                <line number="29" hits="13" branch="False" />
+                <line number="30" hits="8" branch="False" />
+                <line number="31" hits="3" branch="False" />
+                <line number="32" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="ExecuteOperation" signature="(BigNumberCalculator.Core.Models.BigNumber,BigNumberCalculator.Core.Models.BigNumber,BigNumberCalculator.Core.Enums.Operation)" line-rate="0.9" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="SaveAndShowResult" signature="(BigNumberCalculator.Core.Models.BigNumber,BigNumberCalculator.Core.Models.BigNumber,BigNumberCalculator.Core.Models.BigNumber,BigNumberCalculator.Core.Enums.Operation,System.TimeSpan)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(BigNumberCalculator.Core.IO.IFileManager,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="13" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="13" branch="False" />
+            <line number="16" hits="13" branch="False" />
+            <line number="17" hits="13" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="12" branch="False" />
+            <line number="22" hits="12" branch="False" />
+            <line number="23" hits="12" branch="False" />
+            <line number="24" hits="12" branch="False" />
+            <line number="25" hits="13" branch="False" />
+            <line number="28" hits="13" branch="False" />
+            <line number="29" hits="13" branch="False" />
+            <line number="30" hits="8" branch="False" />
+            <line number="31" hits="3" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="9" hits="13" branch="False" />
+          </lines>
+        </class>
+        <class name="BigNumberCalculator.Core.Services.MenuService" filename="Services/MenuService.cs" line-rate="1" branch-rate="1" complexity="13">
+          <methods>
+            <method name="ShowMenu" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetSelectedOperation" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="24" hits="6" branch="False" />
+                <line number="25" hits="6" branch="False" />
+                <line number="27" hits="6" branch="True" condition-coverage="100% (10/10)">
+                  <conditions>
+                    <condition number="28" type="jump" coverage="100%" />
+                    <condition number="41" type="jump" coverage="100%" />
+                    <condition number="54" type="jump" coverage="100%" />
+                    <condition number="67" type="jump" coverage="100%" />
+                    <condition number="80" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="6" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="6" branch="False" />
+                <line number="36" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="ContinueExecution" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="2" branch="False" />
+                <line number="40" hits="2" branch="False" />
+                <line number="41" hits="2" branch="False" />
+                <line number="42" hits="2" branch="False" />
+                <line number="43" hits="2" branch="False" />
+                <line number="44" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(BigNumberCalculator.Core.Utils.IConsoleWrapper)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="24" hits="6" branch="False" />
+            <line number="25" hits="6" branch="False" />
+            <line number="27" hits="6" branch="True" condition-coverage="100% (10/10)">
+              <conditions>
+                <condition number="28" type="jump" coverage="100%" />
+                <condition number="41" type="jump" coverage="100%" />
+                <condition number="54" type="jump" coverage="100%" />
+                <condition number="67" type="jump" coverage="100%" />
+                <condition number="80" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="6" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="6" branch="False" />
+            <line number="36" hits="5" branch="False" />
+            <line number="39" hits="2" branch="False" />
+            <line number="40" hits="2" branch="False" />
+            <line number="41" hits="2" branch="False" />
+            <line number="42" hits="2" branch="False" />
+            <line number="43" hits="2" branch="False" />
+            <line number="44" hits="2" branch="False" />
+            <line number="6" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="BigNumberCalculator.Core.Models.BigNumber" filename="Models/BigNumber.cs" line-rate="1" branch-rate="1" complexity="19">
+          <methods>
+            <method name="Add" signature="(BigNumberCalculator.Core.Models.BigNumber)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="20" hits="6" branch="False" />
+                <line number="21" hits="6" branch="False" />
+                <line number="22" hits="6" branch="False" />
+                <line number="23" hits="6" branch="False" />
+                <line number="25" hits="64" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="147" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="26" branch="False" />
+                <line number="27" hits="26" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="54" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="26" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="85" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="26" branch="False" />
+                <line number="30" hits="26" branch="False" />
+                <line number="31" hits="26" branch="False" />
+                <line number="32" hits="26" branch="False" />
+                <line number="34" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="157" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="36" hits="6" branch="False" />
+                <line number="37" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="IsAllDigits" signature="(System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="45" hits="19" branch="False" />
+                <line number="46" hits="19" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="47" hits="19" branch="False" />
+              </lines>
+            </method>
+            <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="50" hits="10" branch="False" />
+                <line number="51" hits="10" branch="False" />
+                <line number="52" hits="108" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="55" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="53" hits="44" branch="False" />
+                <line number="54" hits="10" branch="False" />
+                <line number="55" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="8" hits="28" branch="False" />
+                <line number="10" hits="22" branch="False" />
+                <line number="11" hits="22" branch="False" />
+                <line number="12" hits="22" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="25" type="jump" coverage="100%" />
+                    <condition number="41" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="13" hits="7" branch="False" />
+                <line number="15" hits="140" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="101" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="55" branch="False" />
+                <line number="17" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Collections.Generic.List`1&lt;System.Byte&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="6" branch="False" />
+                <line number="40" hits="6" branch="False" />
+                <line number="41" hits="6" branch="False" />
+                <line number="42" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="6" branch="False" />
+            <line number="21" hits="6" branch="False" />
+            <line number="22" hits="6" branch="False" />
+            <line number="23" hits="6" branch="False" />
+            <line number="25" hits="64" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="147" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="26" hits="26" branch="False" />
+            <line number="27" hits="26" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="54" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="26" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="85" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="29" hits="26" branch="False" />
+            <line number="30" hits="26" branch="False" />
+            <line number="31" hits="26" branch="False" />
+            <line number="32" hits="26" branch="False" />
+            <line number="34" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="157" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="36" hits="6" branch="False" />
+            <line number="37" hits="6" branch="False" />
+            <line number="45" hits="19" branch="False" />
+            <line number="46" hits="19" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="47" hits="19" branch="False" />
+            <line number="50" hits="10" branch="False" />
+            <line number="51" hits="10" branch="False" />
+            <line number="52" hits="108" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="55" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="53" hits="44" branch="False" />
+            <line number="54" hits="10" branch="False" />
+            <line number="55" hits="10" branch="False" />
+            <line number="8" hits="28" branch="False" />
+            <line number="10" hits="22" branch="False" />
+            <line number="11" hits="22" branch="False" />
+            <line number="12" hits="22" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="25" type="jump" coverage="100%" />
+                <condition number="41" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="13" hits="7" branch="False" />
+            <line number="15" hits="140" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="101" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="16" hits="55" branch="False" />
+            <line number="17" hits="15" branch="False" />
+            <line number="39" hits="6" branch="False" />
+            <line number="40" hits="6" branch="False" />
+            <line number="41" hits="6" branch="False" />
+            <line number="42" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="BigNumberCalculator.Core.IO.FileManager" filename="IO/FileManager.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Read" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Write" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+            <line number="6" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BigNumberCalculator.Core.App.ApplicationRunner" filename="App/ApplicationRunner.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="Run" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="8" hits="4" branch="False" />
+                <line number="9" hits="4" branch="False" />
+                <line number="11" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="141" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="12" hits="5" branch="False" />
+                <line number="14" hits="5" branch="False" />
+                <line number="15" hits="5" branch="False" />
+                <line number="16" hits="5" branch="False" />
+                <line number="18" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="46" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="4" branch="False" />
+                <line number="33" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(BigNumberCalculator.Core.Services.ICalculatorService,BigNumberCalculator.Core.Services.IMenuService)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="4" branch="False" />
+            <line number="9" hits="4" branch="False" />
+            <line number="11" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="141" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="12" hits="5" branch="False" />
+            <line number="14" hits="5" branch="False" />
+            <line number="15" hits="5" branch="False" />
+            <line number="16" hits="5" branch="False" />
+            <line number="18" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="46" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="4" branch="False" />
+            <line number="33" hits="4" branch="False" />
+            <line number="5" hits="4" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

@@ -1,0 +1,16 @@
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/bin/Debug/net8.0/BigNumberCalculator.Core
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/bin/Debug/net8.0/Input/numero1.txt
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/bin/Debug/net8.0/Input/numero2.txt
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/bin/Debug/net8.0/BigNumberCalculator.Core.deps.json
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/bin/Debug/net8.0/BigNumberCalculator.Core.runtimeconfig.json
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/bin/Debug/net8.0/BigNumberCalculator.Core.dll
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/bin/Debug/net8.0/BigNumberCalculator.Core.pdb
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/BigNumberCalculator.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/BigNumberCalculator.Core.AssemblyInfoInputs.cache
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/BigNumberCalculator.Core.AssemblyInfo.cs
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/BigNumberCalculator.Core.csproj.CoreCompileInputs.cache
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/BigNumberCalculator.Core.dll
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/refint/BigNumberCalculator.Core.dll
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/BigNumberCalculator.Core.pdb
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/BigNumberCalculator.Core.genruntimeconfig.cache
+/home/elves/ebd/project/dotnet/BigCalculator/BigNumberCalculator.Core/obj/Debug/net8.0/ref/BigNumberCalculator.Core.dll
